@@ -15,4 +15,9 @@ crontab -e
 0 15 * * 1-5 echo 'standby 0' | /usr/bin/cec-client -s -d 1
 ```
 
+## Updating and upgrading Pi
+```
+sudo apt update
+sudo apt full-upgrade
+```
 
